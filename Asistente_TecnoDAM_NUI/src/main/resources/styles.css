@@ -1,0 +1,104 @@
+/* ===== Base: tema oscuro con acento turquesa ===== */
+.root {
+    -fx-font-family: "Segoe UI", "Roboto", "Arial";
+    -fx-font-size: 14px;
+    -fx-base: #1e293b;
+    -fx-background: #0f172a;
+    -fx-background-color: #0f172a;
+    -fx-control-inner-background: #0f172a;
+    -fx-accent: #14b8a6;
+    -fx-focus-color: #14b8a6;
+    -fx-faint-focus-color: transparent;
+}
+.label { -fx-text-fill: #e2e8f0; }
+
+/* ===== Cabecera ===== */
+.header {
+    -fx-background-color: #111c33;
+    -fx-padding: 14 20 14 20;
+    -fx-border-color: #14b8a6;
+    -fx-border-width: 0 0 2 0;
+}
+.app-title    { -fx-font-size: 22px; -fx-font-weight: bold; -fx-text-fill: #14b8a6; }
+.app-subtitle { -fx-font-size: 14px; -fx-text-fill: #94a3b8; }
+
+/* ===== Paneles ===== */
+.panel {
+    -fx-padding: 14;
+    -fx-background-color: #1e293b;
+    -fx-background-radius: 10;
+    -fx-border-color: #334155;
+    -fx-border-radius: 10;
+}
+.panel-title { -fx-font-size: 13px; -fx-font-weight: bold; -fx-text-fill: #14b8a6; }
+.field-label { -fx-text-fill: #94a3b8; -fx-font-size: 12px; }
+
+/* ===== Ficha del componente ===== */
+.card {
+    -fx-background-color: #0f172a;
+    -fx-background-radius: 8;
+    -fx-padding: 14;
+    -fx-border-color: #14b8a6;
+    -fx-border-radius: 8;
+    -fx-border-width: 0 0 0 4;
+}
+.card-name  { -fx-font-size: 20px; -fx-font-weight: bold; -fx-text-fill: white; }
+.card-data  { -fx-text-fill: #94a3b8; }
+.card-stock { -fx-font-size: 24px; -fx-font-weight: bold; -fx-text-fill: #2dd4bf; }
+
+/* ===== Confirmación ===== */
+.confirm-box {
+    -fx-background-color: #3b1d5e;
+    -fx-border-color: #a855f7;
+    -fx-border-radius: 8;
+    -fx-background-radius: 8;
+    -fx-padding: 14;
+}
+.confirm-text { -fx-font-size: 16px; -fx-text-fill: #f3e8ff; }
+
+/* ===== Botones ===== */
+.button {
+    -fx-background-radius: 6;
+    -fx-padding: 8 18 8 18;
+    -fx-cursor: hand;
+    -fx-font-weight: bold;
+}
+.btn-primary { -fx-background-color: #14b8a6; -fx-text-fill: #04201d; }
+.btn-primary:hover { -fx-background-color: #2dd4bf; }
+.btn-ok      { -fx-background-color: #22c55e; -fx-text-fill: #052e13; }
+.btn-ok:hover { -fx-background-color: #4ade80; }
+.btn-danger  { -fx-background-color: #ef4444; -fx-text-fill: white; }
+.btn-danger:hover { -fx-background-color: #f87171; }
+.button:disabled { -fx-opacity: 0.4; }
+
+/* ===== Campos, tabla y lista ===== */
+.text-field, .spinner .text-field {
+    -fx-background-color: #0f172a;
+    -fx-text-fill: #e2e8f0;
+    -fx-prompt-text-fill: #64748b;
+    -fx-background-radius: 6;
+    -fx-border-color: #334155;
+    -fx-border-radius: 6;
+}
+.text-field:focused { -fx-border-color: #14b8a6; }
+
+.table-view, .list-view {
+    -fx-background-color: #0f172a;
+    -fx-border-color: #334155;
+}
+.table-view .column-header-background { -fx-background-color: #111c33; }
+.table-view .column-header, .table-view .filler {
+    -fx-background-color: #111c33;
+    -fx-border-color: #334155;
+}
+.table-view .column-header .label { -fx-text-fill: #14b8a6; -fx-font-weight: bold; }
+.table-row-cell { -fx-background-color: #0f172a; }
+.table-row-cell:odd { -fx-background-color: #131f38; }
+.table-row-cell:selected { -fx-background-color: #115e59; }
+.table-cell { -fx-text-fill: #e2e8f0; }
+.list-cell { -fx-background-color: #0f172a; -fx-text-fill: #cbd5e1; }
+.list-cell:odd { -fx-background-color: #131f38; }
+
+/* ===== Pie ===== */
+.footer { -fx-padding: 6 20 6 20; -fx-background-color: #111c33; }
+.footer .label { -fx-text-fill: #94a3b8; }
